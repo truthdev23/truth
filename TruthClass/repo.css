@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+.parent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.left{
+    width: 35%;
+    background-color: darkblue;
+    height: 100vh;
+}
+
+.right{
+    width: 65%;
+    height: 100vh;
+    
+}
+
+.form{
+margin-top: 60px;
+margin-left: 170px;
+background-color: orange ;
+width: 70%;
+}
+
+.inn{
+    display: flex;
+flex-direction: column;
+gap: 20px;
+width: 100%;
+background-color: red;
+
+}
+
+img{
+    margin-left: 270px;
+    padding-bottom: 20px;
+}
+
+input{
+    width: 100%;
+    height: 35px;
+    text-indent: 7px;
+    box-sizing: border-box;
+}
+
+h2{
+    margin-left: 190px;
+    padding-bottom: 10px;
+   
+}
+
+p{
+    margin-left: 200px;
+    padding-bottom: 20px;
+}
+
+button{
+    height: 35px;
+    width: 100%;
+    background-color: darkblue;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.lines{
+    display: flex;
+  background-color: pinks;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.one{
+    background-color: darkblue;
+    width: 40px;
+    height: 5px;
+   
+    border-radius: 2px;
+    
+}
+
+.two{
+    background-color: darkblue;
+    width: 40px;
+    height: 5px;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+.three{
+    background-color: darkblue;
+    width: 40px;
+    height: 5px;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+.four{
+    background-color: darkblue;
+    width: 40px;
+    height: 5px;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+
+
+
+@media (max-width: 780px) {
+
+*{
+    
+}
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .parent{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.left{
+  display: none;
+   
+  
+}
+
+.right{
+    width: 100%;
+    height: auto;
+    
+}
+
+.form{
+margin-top: 60px;
+width: 100vw;
+
+margin-left: 0;
+
+}
+
+.inn{
+    display: flex;
+flex-direction: column;
+gap: 20px;
+width: 100%;
+
+}
+
+img{
+   margin: 0 auto;
+    padding-bottom: 20px;
+    display: block;
+    max-width: 100%;
+
+}
+
+input{
+    width: 99vw;
+    height: 35px;
+    text-indent: 7px;
+    outline: none;
+    box-sizing: border-box;
+   
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0;
+    
+   
+}
+
+p{
+    text-align: center;
+    padding-bottom: 20px;
+   
+    margin: 0;
+   
+}
+
+button{
+    height: 35px;
+    width: 100%;
+    background-color: darkblue;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+}

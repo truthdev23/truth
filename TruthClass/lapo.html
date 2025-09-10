@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            background-image: url(img/telephone.png);
+            background-size: cover;
+            
+        }
+        .le{
+            min-height: 600px;
+            width: 50%;
+            background-color: transparent;
+            align-content: center;
+        }
+        .re{
+            height: 600px;
+            width: 50%;
+            background-color: transparent;
+        }
+        .head{
+            display: flex;
+            
+            background-repeat: no-repeat;
+            background-size: contain;
+            justify-content: center;
+            align-content: center;
+            background-color: transparent;
+        
+        }
+
+        input {
+            height: 40px;
+            width: 350px;
+        }
+
+        .input-group {
+            padding-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="head">
+        <div class="le">
+            <form action="mail.php">
+                <h1 style="color: red; padding: 20px;">Need support?</h1>
+                <p style="padding: 20px;">contact us if you need further assistance</p>
+        
+                <div style="padding: 20px;" class="input-group">
+                    <p>Name and Surname</p>
+                    <input type="text" style="margin-bottom: 20px;text-indent: 10px;">
+                </div>
+
+                <div style="padding-top: 10px; margin: 20px;">
+                    <p>Email</p>
+                    <input type="text">
+                </div>
+                <div class="pin" style="padding: 20px;">
+                    <p>Please enter the details of your request</p>
+                    <textarea style="width: 290px; padding: 30px;" name="" id=""></textarea>
+                </div>
+
+                <div style="display: flex; background-color: transparent; width: 370px; justify-content: flex-end">
+                    <button style="width: 100px; padding: 10px; margin: 20px; color: black;background-color: red; cursor: pointer; border-radius: 7px; font-weight: bold;">message</button>
+                </div>
+            </form>
+        </div>
+    <div class="re"></div>
+    
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+body{
+	background-image: url(img/galaxy.webp);
+}
+
+.posh {
+background-color: black;
+padding: 20px;
+width: 30%;
+}
+
+.rich {
+	display: flex;
+background-color: green;
+	
+}
+
+.side {
+display: flex;
+border: 1px solid blue;
+text-align: center;
+padding: 30px;
+padding-left: 40px;
+padding-right: 40px;
+border-radius: 40px;
+background-color:red;
+gap: 10px;
+list-style: none;
+font-weight: bolder;
+font-size: large;
+font-style: italic;
+align-items: center;
+width: 70%;
+width: fit-content;
+color: blue;
+}
+
+

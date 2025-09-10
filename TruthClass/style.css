@@ -1,0 +1,83 @@
+body {
+
+	background-image: url(img/galaxy.webp);
+}
+p {
+	color: blue;
+}
+.type {
+	color: red;
+	background-color: green;
+}
+
+input {
+	width: 400px;
+	outline: none;
+	background-color: black;
+	color: white;
+}
+
+table {
+	color: goldenrod;
+	border-spacing: 5PX;
+	
+}
+
+.COO {
+	border: solid black 1PX;
+}
+
+.a1 {
+	display: flex;
+	background-color: transparent;
+	padding: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 40px;
+	min-width: 550px;
+	width: fit-content;
+	
+	max-width: 700px;
+	color: #fdc7aa;
+	border: 1px solid grey;
+
+
+}
+
+li {
+	
+	padding-right: 30px;
+	color: white;
+	font-weight: bold;
+	list-style: none;
+	
+}
+
+li:hover {
+	color: #fdc7aa;
+	cursor: pointer;
+	
+
+}
+
+.left {
+	background-color: transparents;
+	width: 30%;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+
+.right {
+	background-color: transparent;
+	width: 70%;
+	color: #fdc7aa;
+}
+
+nav {
+	display: flex;
+}
+
+#cid{
+	
+}

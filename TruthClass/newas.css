@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.left-panel {
+  flex: 1;
+  background: url('img/ass.png') no-repeat center center/cover;
+  display: flex;
+  border-radius: 30px;
+  
+}
+
+.overlay {
+  text-align: center;
+  border-radius: 10px;
+  max-width: 80%;
+  color: white;
+  padding-top: 55px;
+  padding-left: 40px;
+}
+
+.right-panel {
+  flex: 1;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.form-container {
+  width: 80%;
+  
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.socialbtn {
+    flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+ border: 1px solid gray;
+ background-color: white;
+}
+
+
+.separator {
+  text-align: center;
+  margin: 20px;
+  position: relative;
+}
+
+
+
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  
+  height: 60px;
+
+}
+
+.checkbox-container input {
+  margin-right: 5px;
+}
+
+.signupbtn {
+  width: 100%;
+  padding: 14px;
+  background: purple;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  
+}
+
+
+
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: purple;
+  text-decoration: none;
+}
+
+#box{
+    width: 20px;
+   margin-bottom: 0;
+    
+}
+
+@media   (max-width: 600px)  {
+
+body{
+   
+}
+
+
+.container{
+
+ flex-direction: column;
+    height: auto;
+    
+    
+  }
+
+  .left-panel {
+    height: 200%;
+    width: 100%;
+    background: url('img/ass.png') no-repeat center center/cover;
+    border-radius: 0;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+  .overlay {
+    padding: 10%;
+    text-align: center;
+    max-width: 100%;
+
+    
+    
+  }
+
+  .right-panel {
+    border-radius: 0;
+    padding: 5%;
+
+  }
+
+  .form-container {
+    width: 100%;
+    
+    
+  }
+
+  h1 {
+    font-size: 24px;
+    
+  }
+
+  .social-buttons {
+    display: flex;
+    gap: 5px;
+  }
+
+  .socialbtn {
+    width: 100%;
+  }
+
+  input, .signupbtn {
+    font-size: 14px;
+  }
+
+  .checkbox-container {
+    flex-direction: row;
+    align-items: center;
+
+
+    }
+
+    h2{
+        margin-top: 90%;
+        text-align: justify;
+    }
+
+
+
+
+
+}
+
+

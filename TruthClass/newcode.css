@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: red;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.left {
+    background-color: #c4c4c4;
+    width: 50vw;
+    height: 100vh;
+    background-image: url('img/hand.png');
+    background-repeat: no-repeat;
+    background-position: 225%;
+    
+}
+
+.right {
+    background-color: #ebfe02;
+    width: 50vw;
+    height: 100vh;
+    padding-left: 100px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    color: #ebfe02;
+}
+
+.main-container {
+    padding-left: 30%;
+    padding-right: 50px;
+}
+
+h1 {
+    color: white;
+    font-size: 53px;
+   
+}
+
+h3 {
+    padding-top: 160px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 36px;
+}
+
+button {
+    color: black;
+    cursor: pointer;
+    background-color: #ebfe02;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+}
+p {
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.sub-container {
+    max-width: 280px;
+    
+}
+
+sub {
+    margin-left: -60px;
+    position: relative;
+    top: 30px;
+}
+
+input {
+    height: 45px;
+    width: 230px;
+    text-indent: 20px;
+   
+}
+
+input:hover {
+    outline: 2px solid green;
+}
+
+input:focus {
+    outline: 2px solid red;
+}
+
+
+
+textarea {
+    width: 500px;
+    height: 280px;
+    resize: none;
+    text-indent: 20px;
+}
+
+.flexdiv {
+    display: flex;
+    gap: 20px;
+    width: 500px;
+
+}
+
+.special-btn-container {
+    display: flex;
+    float: right;
+    padding-top: 25px;
+}
+
+.submit-btn {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+}
+
+.myh2 {
+    padding-bottom: 40px;
+}
+
+.p {
+    margin-bottom: -20px;
+}
+
+.input-group {
+    padding-bottom: 20px;
+}

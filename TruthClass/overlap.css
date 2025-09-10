@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: pink;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.main-form {
+    background-color: white;
+    padding: 25px;
+    width: 700px;
+    min-height: 500px;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    z-index: 1;
+}
+
+.left {
+    width: 40%;
+    min-width: 40%;
+    background-color:black ;
+}
+
+.right {
+    width: 60%;
+    background-color: blue;
+}
+
+.input-group {
+    padding-bottom: 20px;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    text-indent: 10px;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+    resize: none;
+    text-indent: 100px;
+}
+
+.txt {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.button-container {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.socials{
+    margin-left: 60px;
+    margin-top: 40px;
+    
+}
+a{
+    color: white;
+}
+
+.overlap{
+    display: block;
+    list-style: none;
+    background-color: red;
+    width: 30vw;
+    height: 55vh;
+    margin-top: 200px;
+    margin-left: 430px;
+    position: relative;
+    z-index: 100;
+}
+li{
+    margin-bottom: 40px;
+}
+h1{
+    margin-left: 60px;
+    padding-top: 60px;
+}

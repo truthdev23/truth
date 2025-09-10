@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    background-color: red;
+
+}
+
+.left {
+    width: 30%;
+
+}
+
+.right {
+    width: 70%;
+    background-color: aqua;
+    
+}
+
+ul {
+    display: flex;
+    align-items: center;
+
+}
+
+li {
+    list-style: none;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+
+a {
+    display: flex;
+    font-weight: bold;
+    color: black;
+}
+
+.img {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.main-container {
+    min-height: 90vh;
+}
+
+footer {
+    background-color: #0a1a3c;
+    color: white;
+    height: 500px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    
+}
+
+.a {
+    width: 400px;
+
+}
+
+.social  {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.footer-txt  {
+    padding-top: 20px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.footer-ul {
+    display: block;
+    justify-content: left;
+    line-height: 2;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.b-container {
+    display: flex;
+    align-items: flex-start;
+   
+}
+
+.b {
+    display: block;
+    text-align: left;
+}
+
+.c-container {
+    display: flex;
+    align-items: left;
+    
+}
+
+.c {
+    
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-container {
+    width: 300px;
+    
+}
+
+.d{
+    display: block;
+  
+}
+.Z{
+    margin-right: 10px;
+}
+
+.e {
+    width: 300px;
+    text-align: justify;
+}
+
+#footer-ula {
+    display: flex;
+    align-items: flex-start;
+    background-color: red;
+    
+    
+}
+.specail-li {
+    text-align: left;
+    font-weight: 100;
+    display: flex;
+    justify-content: left;
+}
